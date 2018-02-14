@@ -1,0 +1,140 @@
+/*********BASE STYLES*************/
+body {
+  margin: 0 10em;
+  background: #E6E9F1;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/*Header and Cover Photo*/
+#header-container {
+  height: 25% ;
+  background: ;
+}
+
+#main-icon {
+ position: relative;
+ top: -100px;
+ border: ;
+}
+
+#banner-container {
+  height: 352px;
+  border: ;
+}
+
+#banner-image {
+  width: 120%;
+  height: 130%;
+}
+
+#nav {
+  margin-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  font-size: ;
+  font-family: ;
+  color: ;
+}
+
+/* Main Content Area*/
+#content-container {
+  display: flex;
+  justify-content: space-between;
+  height: 75%;
+}
+/*Left Side*/
+#left-content {
+  width: 45%;
+}
+
+#about-me {
+  background: ;
+  padding: 2em;
+  margin: 10px 0;
+}
+
+#pictures {
+  background: ;
+  padding: 2em;
+  margin: 10px 0;
+}
+
+#picture-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  border: ;
+}
+
+
+
+/*Right Side*/
+#right-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+h4 {
+  display: inline;
+}
+/********************************/
+
+
+
+/*********IMAGE CLASSES***********/
+/********************************/
+.feature-img-lg {
+  height: 150px;
+  widht: 100px;
+  flex-grow: 2;
+}
+
+.feature-img-sm {
+  height: 150px;
+  widht: 100px;
+}
+
+.image {
+  height:150%;
+}
+
+
+/*********COMMENT BOXES***********/
+/********************************/
+.comment-box-sm {
+  background: ;
+  padding: 1em;
+  margin: 5px 0;
+}
+
+
+
+
+/*********PROFILE PICTURE CLASSES***********/
+.profile-icon-lg {
+  width:10em;
+  height:10em;;
+}
+
+.profile-icon-sm {
+  width:50px;
+  height:50px;
+  padding: 5px 5px 0 5px;
+}
+
+/******************************************/
+
+/*********LIST CLASSES***********/
+.list-simple {
+  /*Use this class to edit the style of this list*/
+}
+
+/********************************/

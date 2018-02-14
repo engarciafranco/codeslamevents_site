@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+/*************************************
+*********** BASE STYLES **************
+***************************************/
+body {
+  background: url(../codeslambackground.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+#header_logo {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #91a54d;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location {
+
+}
+
+.contact-foot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  padding: 10px 25px 10px 5px;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+/*************************************
+*********** BASE STYLES **************
+***************************************/
+body {
+  background: linear-gradient(#71A7D3, #214A6B);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#logo {
+  float: left;
+}
+
+#event-location {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 90px 35px 90px 235px;
+}
+
+#pen-frame {
+  width: 55em;
+  position: relative;
+  margin: auto;
+}
+
+.featured-pens {
+  display: inline;
+  width: 45em;
+  
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+    color: #91a54d;
+}
+
+#header_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.narrative {
+  margin: 1px 15%;
+  padding: 1em;
+  color: #fff;
+  line-height: 150%;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/*************************************
+******** Project Thumbnails **********
+***************************************/
+
+#flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.project-thumbnail {
+  flex-grow: 1;
+  margin: 15px 5%;
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.student-icon {
+  height: 150px;
+  width: 150px;
+}

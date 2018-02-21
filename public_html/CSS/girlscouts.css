@@ -27,15 +27,25 @@ body {
   margin: auto;
 }
 
+
+
 .featured-pens {
-  display: inline;
-  width: 45em;
-  
+
+  display: inline-block;
+  width: 30em;
+  margin-top: 20px;
+  margin-left: 4%;
+  padding: auto 25px;
+}
+
+p {
+  color: white;
+  padding: 25px 300px 25px 300px;
+  line-height: 1.5;
 }
 
 
-
-h1 {
+h1, h3 {
   text-align: center;
   color: #fff;
   font-weight: bold;
@@ -87,4 +97,18 @@ footer {
 .student-icon {
   height: 150px;
   width: 150px;
+}
+
+/*************************************
+******** Media Queries **********
+***************************************/
+
+
+@media (max-width:1680px) and (min-width: 860px) {
+  .featured-pens {
+    width: 50em;
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+
 }

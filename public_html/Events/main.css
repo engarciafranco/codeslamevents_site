@@ -19,7 +19,7 @@ body {
   margin: 7%;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   color: #fff;
 }
@@ -46,10 +46,6 @@ a:hover {
   text-align: center;
 }
 
-.contact-foot {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
-  padding: 10px 25px 10px 5px;
+footer, .contact-foot {
+text-align: center;
 }

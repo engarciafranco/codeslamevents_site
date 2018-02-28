@@ -42,14 +42,18 @@ a:hover {
 .location {
   margin: 3em auto;
 }
+
 .location h2 {
+
   text-align: center;
 }
 
-.contact-foot {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.logo {
+  display: block;
+  margin: auto;
+}
 
-  padding: 10px 25px 10px 5px;
+
+footer, .contact-foot {
+text-align: center;
 }
